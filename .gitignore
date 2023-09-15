@@ -1,0 +1,9 @@
+venv
+.mypy_cache
+.pytest_cache
+
+images
+
+.env
+
+*.pyc
