@@ -29,6 +29,6 @@ jobs:
       - name: Lint
         run: |
           make dev-lint
-      - name: Test with pytest
+      - name: Unit Tests (pytest)
         run: |
-          make dev-pytest
+          make dev-unittest
